@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API = axios.create({baseURL: process.env.PORT})
+const API = axios.create({baseURL: "https://stockings-bandicoot.cyclic.app/"})
 
 export const uploadImage = (data) => API.post('/upload',data)
 
