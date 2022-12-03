@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = axios.create({baseURL: "http://3.108.190.210"})
+const API = axios.create({baseURL: "https://sharegram.tk"})
 
 
 export const userChats = (id) => API.get(`/chat/${id}`)
